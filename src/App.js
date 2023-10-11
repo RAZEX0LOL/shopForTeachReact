@@ -1,25 +1,99 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import { useState } from "react";
+import Items from "./components/Items";
 
-function App() {
+export default function App() {
+  const [items,setItems] =useState([
+    {
+      id:1,
+      title:'iPhone 15 Pro Max',
+      img:'',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      category: 'Apple',
+      price: '1250'
+    },
+    {
+      id:2,
+      title:'iPhone 14 Pro Max',
+      img:'',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      category: 'Apple',
+      price: '1150'
+    },
+    {
+      id:3,
+      title:'Samsung S23 Ultra',
+      img:'',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      category: 'Samsung',
+      price: '872'
+    },
+    {
+      id:4,
+      title:'Samsung Z Fold 5',
+      img:'',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      category: 'Samsung',
+      price: '1799'
+    },
+    {
+      id:5,
+      title:'Nothing Phone 1',
+      img:'',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      category: 'Nothing',
+      price: '419'
+    },
+    {
+      id:6,
+      title:'Nothing Phone 2',
+      img:'',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      category: 'Nothing',
+      price: '599'
+    },
+    {
+      id:7,
+      title:'Huawei P60 Pro',
+      img:'',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      category: 'Huawei',
+      price: '964'
+    },
+    {
+      id:8,
+      title:'Huawei Mate X3',
+      img:'',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      category: 'Huawei',
+      price: '2099'
+    },
+    {
+      id:9,
+      title:'iPhone 15 Plus',
+      img:'',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      category: 'Apple',
+      price: '799'
+    },
+    {
+      id:10,
+      title:'Samsung Z Flip 5',
+      img:'',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      category: 'Samsung',
+      price: '1120'
+    }
+  ])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <Header/>
+      <Items allItems={items}/>
+      <Footer/>
     </div>
   );
 }
 
-export default App;
+
