@@ -8,7 +8,7 @@ export default function App() {
     {
       id:1,
       title:'iPhone 15 Pro Max',
-      img:'',
+      img:'iPhone15ProMax.jpg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Apple',
       price: '1250'
@@ -16,7 +16,7 @@ export default function App() {
     {
       id:2,
       title:'iPhone 14 Pro Max',
-      img:'',
+      img:'iPhone14ProMax.jpg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Apple',
       price: '1150'
@@ -24,7 +24,7 @@ export default function App() {
     {
       id:3,
       title:'Samsung S23 Ultra',
-      img:'',
+      img:'SamsungS23Ultra.jpg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Samsung',
       price: '872'
@@ -32,7 +32,7 @@ export default function App() {
     {
       id:4,
       title:'Samsung Z Fold 5',
-      img:'',
+      img:'SamsungZFold5.jpg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Samsung',
       price: '1799'
@@ -40,7 +40,7 @@ export default function App() {
     {
       id:5,
       title:'Nothing Phone 1',
-      img:'',
+      img:'NothingPhone1.jpeg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Nothing',
       price: '419'
@@ -48,7 +48,7 @@ export default function App() {
     {
       id:6,
       title:'Nothing Phone 2',
-      img:'',
+      img:'NothingPhone2.png',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Nothing',
       price: '599'
@@ -56,7 +56,7 @@ export default function App() {
     {
       id:7,
       title:'Huawei P60 Pro',
-      img:'',
+      img:'HuaweiP60Pro.jpg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Huawei',
       price: '964'
@@ -64,7 +64,7 @@ export default function App() {
     {
       id:8,
       title:'Huawei Mate X3',
-      img:'',
+      img:'HuaweiMateX3.png',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Huawei',
       price: '2099'
@@ -72,7 +72,7 @@ export default function App() {
     {
       id:9,
       title:'iPhone 15 Plus',
-      img:'',
+      img:'iPhone15Plus.jpg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Apple',
       price: '799'
@@ -80,7 +80,7 @@ export default function App() {
     {
       id:10,
       title:'Samsung Z Flip 5',
-      img:'',
+      img:'SamsungZFlip5.jpeg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Samsung',
       price: '1120'
