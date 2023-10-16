@@ -4,6 +4,7 @@ import { useState } from "react";
 import Items from "./components/Items";
 
 export default function App() {
+  const [orders, setOrders] = useState([]);
   const [items,setItems] =useState([
     {
       id:1,
@@ -86,14 +87,22 @@ export default function App() {
       price: '1120'
     }
   ])
+  
+  const addToOrder = (item3) => { 
+    if (!orders.some((el) => el.id === item3.id)) {
+      setOrders([...orders, item3]);
+    }
+  };
 
   return (
     <div className="wrapper">
-      <Header/>
-      <Items allItems={items}/>
+      <Header orders={orders}/>
+      <Items allItems={items} onAdd={addToOrder}/>
       <Footer/>
     </div>
   );
+
+  
 }
 
 
