@@ -12,7 +12,7 @@ export default function App() {
       img:'iPhone15ProMax.jpg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Apple',
-      price: '1250'
+      price: '1250.99'
     },
     {
       id:2,
@@ -20,7 +20,7 @@ export default function App() {
       img:'iPhone14ProMax.jpg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Apple',
-      price: '1150'
+      price: '1150.78'
     },
     {
       id:3,
@@ -93,10 +93,14 @@ export default function App() {
       setOrders([...orders, item3]);
     }
   };
+  
+  const deleteOrder = (id) => {
+    setOrders(orders.filter((el) => el.id !== id));
+  };
 
   return (
     <div className="wrapper">
-      <Header orders={orders}/>
+      <Header orders={orders} onDelete={deleteOrder}/>
       <Items allItems={items} onAdd={addToOrder}/>
       <Footer/>
     </div>
