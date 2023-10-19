@@ -12,7 +12,7 @@ export default function App() {
       img:'iPhone15ProMax.jpg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Apple',
-      price: '1250.99'
+      price: '1249.99'
     },
     {
       id:2,
@@ -20,7 +20,7 @@ export default function App() {
       img:'iPhone14ProMax.jpg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Apple',
-      price: '1150.78'
+      price: '1149.99'
     },
     {
       id:3,
@@ -28,7 +28,7 @@ export default function App() {
       img:'SamsungS23Ultra.jpg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Samsung',
-      price: '872'
+      price: '871.99'
     },
     {
       id:4,
@@ -36,7 +36,7 @@ export default function App() {
       img:'SamsungZFold5.jpg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Samsung',
-      price: '1799'
+      price: '1799.99'
     },
     {
       id:5,
@@ -44,7 +44,7 @@ export default function App() {
       img:'NothingPhone1.jpeg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Nothing',
-      price: '419'
+      price: '419.99'
     },
     {
       id:6,
@@ -52,7 +52,7 @@ export default function App() {
       img:'NothingPhone2.png',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Nothing',
-      price: '599'
+      price: '599.99'
     },
     {
       id:7,
@@ -60,7 +60,7 @@ export default function App() {
       img:'HuaweiP60Pro.jpg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Huawei',
-      price: '964'
+      price: '963.99'
     },
     {
       id:8,
@@ -68,7 +68,7 @@ export default function App() {
       img:'HuaweiMateX3.png',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Huawei',
-      price: '2099'
+      price: '2099.99'
     },
     {
       id:9,
@@ -76,7 +76,7 @@ export default function App() {
       img:'iPhone15Plus.jpg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Apple',
-      price: '799'
+      price: '799.99'
     },
     {
       id:10,
@@ -84,7 +84,7 @@ export default function App() {
       img:'SamsungZFlip5.jpeg',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       category: 'Samsung',
-      price: '1120'
+      price: '1119.99'
     }
   ])
   
