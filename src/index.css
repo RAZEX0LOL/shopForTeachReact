@@ -17,7 +17,6 @@ body{
     margin: 50px auto;
 }
 
-
 header{
     position: relative;
 }
@@ -31,7 +30,6 @@ header ul.nav{
     float:right;
     list-style: none; 
 }
-
 
 header ul.nav li{
     display: inline;
@@ -51,12 +49,10 @@ header .shop-cart-button{
 
 }
 
-
 header .shop-cart-button:hover,
 header .shop-cart-button.active{
     color:rgb(40, 151, 151);
 }
-
 
 header .shop-cart{
     position: absolute;
@@ -135,7 +131,6 @@ header .presentation{
     position: relative;
 }
 
-
 header .presentation::after{
     content: 'Надежный поставщик телефонов в России';
     position: absolute;
@@ -146,7 +141,6 @@ header .presentation::after{
     font-weight: 600;
     color: aqua;
 }
-
 
 header .presentation::before{
     content: 'по низким ценам';
