@@ -153,6 +153,24 @@ header .presentation::before{
     color: aqua;
 }
 
+.categories div{
+    display: inline-block;
+    background: #05386b;
+    border-radius:50px;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+    border:1px solid transparent;
+    transition: all 500ms ease;
+    color: aqua;
+}
+
+.categories div:hover{
+    border-color: rgb(0, 255, 238);
+    transform: scale(1.1);
+}
+
 main{
     display: flex;
     width: 100%;
@@ -173,6 +191,7 @@ main .item img{
     width: 100%;
     border-radius: 10px 10px 0 0;
     transition: transform 500ms ease;
+    cursor:pointer;
 }
 
 main .item img:hover{
