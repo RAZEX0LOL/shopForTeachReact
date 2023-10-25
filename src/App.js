@@ -24,7 +24,7 @@ export default function App() {
       .catch((error)=>{
         console.error("Ошибка при загрузке данных", error);
       });
-  }, [items]);
+  }, []);
   
   const addToOrder = (item3) => { 
   
