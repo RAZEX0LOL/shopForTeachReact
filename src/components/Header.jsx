@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import {GoTrash} from "react-icons/go";
 import Order from "./Order";
+import PriceListPDF from "./PriceListPDF";
+import { saveAs } from "file-saver";
+import { Document, Page, Text, View, StyleSheet, pdf } from "@react-pdf/renderer";
+
+
 
 const showOrders=(props)=>{
     let summa=0;
@@ -23,7 +28,18 @@ const showNothing=()=>{
     );
 }
 
+
+
+
 export default function Header(props){
+
+    const handleDownloadPDF = async () => {
+        const pdfBlob = await pdf(<PriceListPDF items={props.items} />).toBlob();
+        saveAs(pdfBlob, "price.pdf");
+    };
+
+
+
     let[cartOpen,setCartOpen]=useState(false);
 
     return(
@@ -35,7 +51,8 @@ export default function Header(props){
                 <li>Про нас</li>
                 <li>Контакты</li>
                 <li>Кабинет</li>
-                <li>Скачать прайс</li>
+                <li onClick={handleDownloadPDF}>Скачать прайс</li>
+
             </ul>
             <GoTrash onClick={()=>setCartOpen(cartOpen=!cartOpen)} className={`shop-cart-button ${cartOpen && 'active'}`}/>
 
